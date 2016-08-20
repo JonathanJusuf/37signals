@@ -1,0 +1,120 @@
+/** SITEWIDE CSS **/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Crimson Text", sans-serif;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+header,
+section {
+		display: block;
+		margin: 30px auto;
+		width: 825px;
+}
+
+/** HEADING 1 **/
+header > h1,
+#customers h1,
+#manifesto h1,
+#rework h1,
+#offerings h1 {
+		color: #232323;
+		font-size: 48px;
+		line-height: 52px;
+		letter-spacing: -1px;
+		margin: 20px 0;
+		text-align: center;
+}
+
+hr {
+	background: white url('../img/img-hr.png') no-repeat scroll 50% 50%;
+	border: 0;
+	clear: both;
+	height: 12px;
+}
+
+/** NAVIGATION **/
+nav {
+	font-family: sans-serif;
+	height: 48px;
+	min-width: 100%;
+}
+
+nav ul {
+	color: 3369369;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 5px;
+	padding: 5px;
+}
+
+nav a:hover {
+	color: #18AFE0;
+}
+
+.signin:hover {
+	color: #369369;
+}
+
+/** HEADER **/
+header {
+	clear: both;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+header > h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 10px 0;
+	color: #222222;
+}
+
+#products {
+	height: 277px;
+}
+
+#products div {
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	font-family: 'roboto;, sans-serif;
+	float: left;
+	margin: 25px 0 0 58px;
+	padding: 20px 30px;
+	width: 17%;
+}
+
+#products h3 {
+	font-size: 21px;
+	color: #336699;
+	font-weight: bold;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+#products span {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
